@@ -1,4 +1,4 @@
 function openInstallURL() {
-    var url = 'itms-services://?action=download-manifest&url=https://192.168.0.158:1234/app/install.plist';
+    var url = 'itms-services://?action=download-manifest&url=https://github.com/anotherCPL/appDownloadTest/tree/master/pages/install.plist';
   window.self.location = url;
 }

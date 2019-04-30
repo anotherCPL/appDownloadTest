@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>ee.ipa</string>
+					<string>https://github.com/anotherCPL/appDownloadTest/blob/master/apps/testDemo001.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -25,13 +25,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.zz</string>
+				<string>cpl.testDemo001</string>
 				<key>bundle-version</key>
 				<string>1.0.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>test</string>
+				<string>testDemo001</string>
 			</dict>
 		</dict>
 	</array>
