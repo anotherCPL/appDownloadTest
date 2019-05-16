@@ -10,3 +10,6 @@ appDownloadTest
 
 
 试一下效果： http://htmlpreview.github.io/?https://github.com/anotherCPL/appDownloadTest/blob/master/pages/index.html
+
+
+版本信息 ： https://github.com/anotherCPL/appDownloadTest/raw/master/json/version.json
