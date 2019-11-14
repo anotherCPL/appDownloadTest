@@ -2,7 +2,9 @@
 	"data" : {
 		"version" : "1.1.0",
 		"build" : "1",
-		"info" : "1.增加收藏功能\n2.增加自动保存阅读进度\n",
-		"url" : "test"
+		"info" : "1.新增功能\n2.优化部分\n",
+		"url" : "https://anothercpl.github.io/appDownloadTest/apps/maintainProject",
+		"upType" : "0",
+		"date" : "2019-11-14 11:25:55"
 	}
 }
