@@ -43,11 +43,11 @@
         <p class="appname">扫一扫下载</p>
     </div>
     <div class="appdownload-btns">
-        <a class="btn item-android" onclick="toDownload_android();" style="text-align: center">
-            <span class="txt" style="float: none"> <i class="iconfont">&#xe60f;</i> 安卓版</span>
-        </a>
         <a class="btn item-android" onclick="toDownload_iOS();" style="text-align: center">
             <span class="txt" style="float: none"> <i class="iconfont">&#xe60e;</i> 苹果版</span>
+        </a>
+          <a class="btn item-android" onclick="toDownload_android();" style="text-align: center">
+            <span class="txt" style="float: none"> <i class="iconfont">&#xe60f;</i> 安卓版</span>
         </a>
     </div>
     <p style="text-align: center;color: white; width: 60%;margin: 0 auto">下载测试页面</p>
@@ -57,8 +57,21 @@
 <script>
 
  function toDownload_iOS(){
-  window.location.href = 'itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/anotherCPL/appDownloadTest/master/pages/install.plist';  //必须用https协议访问cpw.plist安装清单--->IOS签名的 ，可以搭建一个ftp服务器放在下面，也可以在本服务器上放置.plist文件
- }
+
+   var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+      
+       if (userAgent.indexOf("Safari") > -1) {
+          alert("正在加载，关闭该弹框后，稍等片刻允许安装后即可退出页面。");
+          // window.location.href = 'itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/anotherCPL/appDownloadTest/master/apps/maintainProject/install.plist';  //必须用https协议访问cpw.plist安装清单--->IOS签名的 ，可以搭建一个ftp服务器放在下面，也可以在本服务器上放置.plist文件
+
+        } else{
+     
+             alert("请使用内置Safari浏览器打开页面，弹框允许安装后即可退出页面。");
+        }
+    
+  }
+
+
  function toDownload_android(){
    window.location.href = 'https://www.baidu.com';
  }
