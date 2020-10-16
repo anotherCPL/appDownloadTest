@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://filecdn.nnjiapei.com/maintainProject.ipa</string>
+					<string>http://192.168.0.105:30000/maintainProject.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
